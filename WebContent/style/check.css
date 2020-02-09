@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+#content #middle{
+	float:left;
+	margin-left:10px;
+	width:490px;
+}
+
+#content #middle .bottom{
+	background:url(../images/student/backgroundBottom.png) no-repeat left top;
+	height:20px;
+}
+
+#content #middle #registerInfo{
+	width:490px;
+}
+
+#content #middle .registerInfoTop{
+	background:url(../images/teacher/registerInfoBackgroundTop.png) no-repeat left top;
+	height:20px;
+}
+
+#content #middle .studentInfoTop{
+	background:url(../images/teacher/studentInfoBackgroundTop.png) no-repeat left top;
+	height:20px;
+}
+
+#content #middle .itemRegisterInfo{
+	background:url(../images/student/backgroundSide.png) repeat-y;
+}
+
+#content #middle .registerInfoContent{
+	margin-left:10px;
+	padding-bottom:15px;
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:15px;
+	display:block;
+	font-size:20px;
+}
+
+#content #middle .doc{
+	float:left;
+	padding-top:33px;
+	margin-right:20px;
+}
+
+#content #middle .eachRegisterInfo{
+	float:left;
+}
+
+#content #middle .eachRegisterInfoAudit{
+	float:right;
+	margin-right:25px;
+}
+
+#content #middle .eachRegisterInfoAudit input{
+	font-size:20px;
+}
+
+#content #right{
+	float:left;
+	margin-left:0px;
+	width:290px;
+}
+
+#content #right .bottom{
+	height:20px;
+	background:url(../images/student/rightBackgroundBottom.png) no-repeat;
+}
+
+#content #right #info .infoTop{
+	width:290px;
+	height:20px;
+	background:url(../images/teacher/infoBackgroundTop.png) no-repeat;
+	margin-top:-30px;
+}
+
+#content #right #info .itemInfo{
+	background:url(../images/student/rightBackgroundSide.png) repeat-y;
+}
+
+#content #right #info .itemInfoLeft{
+	margin-left:15px;
+	width:100px;
+	height:130px;
+	float:left;
+}
+
+#content #right #info #photo{
+	margin-left:10px;
+	margin-top:10px;
+	height:100px;
+	width:80px;
+	border:1px solid;
+}
+
+#content #right #info #kemu{
+	height:30px;
+	width:80px;
+	margin-left:10px;
+	margin-top:3px;
+	font-size:18px;
+	color:#F00;
+	text-align:center;
+}
+
+#content #right #info .itemInfoRight{
+	width:150px;
+	height:130px;
+	float:left;
+	font-size:18px;
+	line-height:50px;
+	margin-top:5px;
+}

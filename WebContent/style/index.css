@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{
+	width:1000px;
+	height:500px;
+}
+
+.content .studentLogin{
+	background:url(../images/index/xueshengrukou.png) no-repeat;
+	width:400px;
+	height:272px;
+	float:left;
+	margin:20px 50px;
+}
+
+.content .teacherLogin{
+	background:url(../images/index/jiaoshirukou.png) no-repeat;
+	width:400px;
+	height:272px;
+	float:right;
+	margin:20px 50px;
+}
+
+.content .studentRegister{
+	background:url(../images/index/xueshengzhuce.png) no-repeat;
+	background-size:85% 85%;
+	width:500px;
+	height:554px;
+	margin:auto;
+}
+
+.content .input{
+	margin:0px 30px 30px 30px;
+	font-size:22px;
+	line-height:50px;
+}
+
+.content .input input{
+	font-size:22px;
+}
+
+.content .submit{
+	height:42px;
+	width:87px;
+}
+
+.content .submit input{
+	background:url(../images/student/login.png) no-repeat;
+	height:42px;
+	width:87px;
+	margin-left:50px;
+	border:none;
+}
+/*left*/

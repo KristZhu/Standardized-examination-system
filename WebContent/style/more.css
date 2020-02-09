@@ -1,0 +1,315 @@
+@charset "utf-8";
+/* CSS Document */
+
+input{
+	 height:30px; 
+	 font-size:18px;
+}
+
+#content #middle{
+	float:left;
+	margin-left:10px;
+	width:490px;
+}
+
+#content #middle #notice{
+	width:490px;
+	margin-top:-30px;
+	margin-left:12px;
+	overflow:auto;
+}
+
+#content #middle .noticeTop{
+	background:url(../images/student/noticeBackgroundTop.png) no-repeat left top;
+	height:20px;
+}
+
+#content #middle .bottom{
+	background:url(../images/student/backgroundBottom.png) no-repeat left top;
+	height:20px;
+}
+
+#content #middle .itemNotice{
+	background:url(../images/student/backgroundSide.png) repeat-y;
+}
+
+#content #middle #noticeInfo{
+	font-size:20px; 
+	margin-left:10px; 
+	padding:10px; 
+	width:440px;
+}
+
+#content #middle #noticeContent{
+	font-size:18px; 
+	margin-left:20px; 
+	width:420px;
+}
+
+#content #middle .itemAllChoice{
+	background:url(../images/student/backgroundSide.png) repeat-y;
+}
+
+#content #middle .itemQuestionWord{
+	margin-left:10px;
+	margin-bottom:15px;
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:15px;
+	display:block;
+	font-size:20px;
+}
+
+#content #middle .itemQuestionImg{
+	margin-left:35px;
+}
+
+#content #middle .itemQuestion img{
+	margin:auto auto;
+	text-align:center;
+	vertical-align:middle;
+	display:table-cell;
+	max-height:200px;
+	max-width:400px;
+}
+
+#content #middle input{
+	margin-top:14px;
+	margin-left:30px;
+}
+
+#content #middle .itemChoice{
+	margin-left:10px;
+	margin-top:7px;
+	display:inline;
+	font-size:20px;
+}
+
+#content #middle .itemChoiceWrong{
+	margin-left:10px;
+	margin-top:7px;
+	display:inline;
+	font-size:20px;
+	color:red;
+}
+
+#content #middle .itemChoiceRight{
+	margin-left:10px;
+	margin-top:7px;
+	display:inline;
+	font-size:20px;
+	color:blue;
+}
+
+#content #middle .submit{
+	float:left;
+	width:150px;
+}
+
+#content #middle .submit input{
+	font-size:22px;
+	width:87px;
+	height:40px;
+	background:url(../images/student/submitButton.png) no-repeat;
+	border:none;
+}
+
+#content #middle .submitNext{
+	float:left;
+	width:100px;
+	margin-left:10px;
+}
+
+#content #middle .submitNext input{
+	font-size:22px;
+	width:87px;
+	height:40px;
+	background:url(../images/student/nextQuestionButton.png) no-repeat;
+	border:none;
+}
+
+#content #middle #autoSubmit{
+	margin-left:5px;
+	font-size:18px;
+}
+
+#content #middle #autoSubmit input{
+	vertical-align:middle;
+	width:20px;
+	height:20px;	
+	border:none;
+	margin:0;
+	margin-left:25px;
+}
+
+#content #middle #autoSubmit .autoSubmitTrue{
+	background:url(../images/student/autoSubmitTrue.png) no-repeat;
+}
+
+#content #middle #autoSubmit .autoSubmitFalse{
+	background:url(../images/student/autoSubmitFalse.png) no-repeat;
+}
+
+#content #middle #autoSubmit #autoSubmitWord{
+	vertical-align:middle;
+	display:inline;
+}
+
+#content #middle .others{
+	float:right;
+	margin-right:50px;
+	margin-top:5px;
+}
+
+#content #middle .others .align{
+	font-size:20px;
+	padding-bottom:10px;
+}
+
+#content #middle .other{
+	margin-top:50px;
+	display:inline;
+	margin-left:25px;
+}
+
+#content #middle button{
+	display:inline;
+}
+
+/*question*/
+
+#content #middle .messageTop{
+	background:url(../images/student/messageBackgroundTop.png) no-repeat left top;
+	height:20px;
+}
+
+#content #middle #message{
+	width:490px;
+	margin-top:20px;
+	margin-left:12px;
+	overflow:auto;
+}
+
+#content #middle .itemMessage{
+	background:url(../images/student/backgroundSide.png) repeat-y;
+	font-size:18px;
+	padding-top:5px;
+}
+
+/*middle*/
+
+#content #right{
+	float:left;
+	margin-left:20px;
+	width:290px;
+}
+
+#content #right .bottom{
+	height:20px;
+	background:url(../images/student/rightBackgroundBottom.png) no-repeat;
+}
+
+#content #right #info .infoTop{
+	width:290px;
+	height:20px;
+	background:url(../images/student/infoBackgroundTop.png) no-repeat;
+	margin-top:-30px;
+}
+
+#content #right #info .itemInfo{
+	background:url(../images/student/rightBackgroundSide.png) repeat-y;
+}
+
+#content #right #info .itemInfoLeft{
+	margin-left:15px;
+	width:100px;
+	height:130px;
+	float:left;
+}
+
+#content #right #info #photo{
+	margin-left:10px;
+	margin-top:10px;
+	height:100px;
+	width:80px;
+	border:1px solid;
+}
+
+#content #right #info #kemu{
+	height:30px;
+	width:80px;
+	margin-left:10px;
+	margin-top:3px;
+	font-size:18px;
+	color:#F00;
+	text-align:center;
+}
+
+#content #right #info .itemInfoRight{
+	width:150px;
+	height:130px;
+	float:left;
+	font-size:17px;
+	line-height:60px;
+	margin-top:5px;
+}
+
+#content #right #time .timeTop{
+	width:290px;
+	height:20px;
+	background:url(../images/student/practiseTimeBackgroundTop.png) no-repeat;
+	margin-top:15px;
+}
+
+#content #right #time .itemTime{
+	width:290px;
+	height:38px;
+	background:url(../images/student/rightBackgroundSide.png) repeat-y;
+}
+
+#content #right #time #timetext{
+	font-size:24px;
+	color:#F00;
+	float:left;
+	margin-left:50px;
+	margin-top:5px;
+}
+
+#content #right #time #timetext2{
+	font-size:24px;
+	color:#F00;
+	float:left;
+	margin-left:50px;
+	margin-top:5px;
+}
+
+#content #right #time .timeButton{
+	float:right;
+	margin-right:40px;
+}
+
+#content #right #time .timeButton button{
+	font-size:22px;
+	width:120px;
+	height:40px;
+	background-color:#900;
+	color:#FFF;
+}
+
+#content #middle .doc{
+	float:left;
+	margin-right:20px;
+	margin-left:15px; 
+	margin-top:20px;
+}
+
+/*id&time*/
+
+#content #right #number{
+	width:290px;
+}
+
+.height{
+	height:20px;
+}
+/*content*/

@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#000;
+	background:url(../images/student/background.png) repeat-x;
+	line-height:2em;
+}
+
+#wrapper{
+	width:1000px;
+	position:relative;
+	padding:0 30px;
+	margin:0 auto;
+}
+
+.cleaner{clear:both;}
+
+input .submit{cursor:pointer;}
+
+#top{
+	height:30px;
+	float:right;
+	margin-right:20px;
+	width:400px;
+	background:url(../images/teacher/top.png) no-repeat;
+}
+
+#header{
+	width:940px;
+	height:80px;
+}
+
+#way{
+	float:left;
+	margin-left:90px;
+	height:120px;
+	width:440px;
+}
+
+#logo{
+	float:left;
+	height:80px;
+	width:350px;
+	background:url(../images/student/logo.png) no-repeat;	
+}
+
+.way_class0, .way_class1, .way_class2, .way_class3{
+	height:25px;
+	float:left;
+	margin:0 5px;
+}
+
+.way_class0{
+	margin-left:40px;
+}
+
+.way_class2, .way_class3{
+	height:18px;
+	font-size:18px;
+	margin-top:-1px;
+	text-decoration:none;
+}
+
+#way img{
+	float:left;
+}
+
+#head_right{
+	float:left;
+	height:105px;
+	width:400px;
+	margin-left:10px;
+	padding-top:18px;
+	margin-bottom:25px;
+}
+
+#head_right .search{
+	background:url(../images/student/search_background.png) no-repeat;
+	height:44px;
+	width:400px;
+}
+
+#head_right .search div{
+	display:inline;
+	float:left;
+}
+
+#head_right .search select, #head_right .search input{
+	text-align:left;
+	vertical-align:central;
+	font-size:18px;
+	border:hidden;
+	backface-visibility:hidden;
+}
+
+#head_right .search select{
+	margin-top:10px;
+	margin-left:15px;
+}
+
+#head_right .search input{
+	margin-top:2px;
+	margin-left:10px;
+}
+	
+#head_right .search button{
+	border:hidden;
+	background-color:#F60;
+	margin-left:15px;
+	margin-top:4px;
+	height:32px;
+	cursor:pointer;
+}
+
+#head_right .menu{
+	float:left;
+	width:270px;
+	padding:0;
+	margin:0 0 0 70px;
+}
+
+#head_right .menu ul{
+	margin:0px;
+	padding:0;
+	list-style:none;
+}
+
+#head_right .menu li{
+	display:inline;
+}
+
+#head_right .menu a{
+	float:left;
+	display:block;
+	height:20px;
+	padding:2px 10px 2px 10px;
+	text-align:center;
+	font-size:16px;
+	text-decoration:none;
+	color:#000;
+}
+
+#head_right .menu a:hover{
+	color:#f60;
+	background-color:#CCC;
+}
+/*head*/
+
+#content{
+	width:861px;
+	margin:auto;
+}
+
+h1{
+	text-align:center;
+}
+
+p{
+	font-size:16px;
+}
+
+#content img{
+	text-align:center;
+}
+
+#content p .left{
+	float:left;
+	margin:20px;
+}
+
+#content p .right{
+	float:right;
+	margin:20px;
+}
+
+.back_to_top{
+	float:right;
+	margin-right:100px;
+}
+
+.more{
+	margin-bottom:100px;
+	margin-left:100px;
+}
+
+.more h3{
+	display:inline;
+	float:left;
+	font-size:18px;
+}
+
+.commentshare{
+	margin-right:100px;
+}
+
+.commentshare a{
+	display:block;
+	float:right;
+	height:32px;
+	width:89px;
+	margin:10px;
+}
+
+.commentshare .comment{
+	background:url(../images/class2/comment.png) no-repeat;
+}
+
+.commentshare .comment:hover{
+	background:url(../images/class2/comment_hover.png) no-repeat;
+}
+
+.commentshare .share{
+	background:url(../images/class2/share.png) no-repeat;
+}
+
+.commentshare .share:hover{
+	background:url(../images/class2/share_hover.png) no-repeat;
+}
+
+.height{
+	height:100px;
+}

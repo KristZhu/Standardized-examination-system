@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#bg_bar1, #bg_bar2, #bg_bar3 {       
+	margin: 10px;        
+	height: 20px;        
+	border-radius: 38px;        
+	background-color: gray;        
+	opacity: 0.5;    
+}     
+
+#touch_bar1, #touch_bar2, #touch_bar3 {       
+	position: relative;        
+	top: -82px;        
+	border: 2px solid blue;        
+	width: 15%;        
+	height: 20px;        
+	border-radius: 38px;        
+	background-color: white;        
+	display: flex;        
+	flex: row;        
+	justify-content: center;        
+	align-items: center;        
+	z-index: 20;    
+}     
+
+#bg_new1, #bg_new2, #bg_new3 {
+    position: relative;        
+	top: -164px;        
+	height: 20px;        
+	border-radius: 38px;        
+	background-color: blue;        
+	z-index: 15;    
+}     
+#bg_old1, #bg_old2, #bg_old3 {        
+	height: 80px;        
+	z-index: 10;        
+	display: flex;        
+	flex: row;        
+	justify-content: center;        
+	align-items: center;    
+}    
