@@ -1,0 +1,46 @@
+
+#pie, #pie2, #pie3, #pie4, #pie5, #pie6, #pie7, #pie8 {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#pie svg, #pie2 svg, #pie3 svg, #pie4 svg, #pie5 svg, #pie6 svg, #pie7 svg, #pie8 svg {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  overflow: visible;
+}
+#pie .percentage, #pie2 .percentage, #pie3 .percentage, #pie4 .percentage, #pie5 .percentage, #pie6 .percentage, #pie7 .percentage, #pie8 .percentage {
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  font-family: Helvetica;
+  font-size: 1rem;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.rendered#pie, .rendered#pie2, .rendered#pie3, .rendered#pie4, .rendered#pie5, .rendered#pie6, .rendered#pie7, .rendered#pie8 {
+  background: none;
+}
+.rendered#pie .percentage, .rendered#pie2 .percentage, .rendered#pie3 .percentage, .rendered#pie4 .percentage, .rendered#pie5 .percentage, .rendered#pie6 .percentage, .rendered#pie7 .percentage, .rendered#pie8 .percentage {
+  opacity: 1;
+}
+
+#pie, #pie2, #pie3, #pie4, #pie5, #pie6, #pie7 {
+  box-shadow: none;
+  background: #BDC3C7;
+}
+#pie circle:nth-child(1), #pie2 circle:nth-child(1), #pie3 circle:nth-child(1), #pie4 circle:nth-child(1), #pie5 circle:nth-child(1), #pie6 circle:nth-child(1), #pie7 circle:nth-child(1) {
+  fill: #BDC3C7;
+}
+#pie circle:nth-child(2), #pie2 circle:nth-child(2), #pie3 circle:nth-child(2), #pie4 circle:nth-child(2), #pie5 circle:nth-child(2), #pie6 circle:nth-child(2), #pie7 circle:nth-child(2) {
+  fill: #BDC3C7;
+  stroke: #3498DB;
+}
+#pie .percentage, #pie2 .percentage, #pie3 .percentage, #pie4 .percentage, #pie5 .percentage, #pie6 .percentage, #pie7 .percentage {
+  color: white;
+}
