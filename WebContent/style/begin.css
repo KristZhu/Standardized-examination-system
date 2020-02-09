@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content #middle{
+	float:left;
+	margin-left:10px;
+	width:510px;
+}
+
+#content #right{
+	float:left;
+	margin-left:10px;
+	margin-top:30px;
+	width:320px;
+}
+
+#content .navi{
+	background:url(../images/teacher/navi_background.png) repeat-x;
+	width:504px;
+	height:35px;
+	float:left;
+}
+
+#content #right .navi{
+	width:314px;
+}
+
+#content .navi_left{
+	background:url(../images/teacher/navi_background_left.png) no-repeat;
+	width:3px;
+	height:35px;
+	float:left;
+}
+
+#content .navi_right{
+	background:url(../images/teacher/navi_background_right.png) no-repeat;
+	width:3px;
+	height:35px;
+	float:right;
+}
+
+#content .navi ul{
+	margin:0 0 0 -45px;
+	list-style-type:none;
+}
+
+#content .navi li{
+	padding:0;
+	width:66px;
+	float:left;
+	cursor:default;
+	display:inline;
+}
+
+#content .navi li a{
+	display:block;
+	height:35px;
+	line-height:35px;
+	font-size:18px;
+	text-decoration:none;
+	text-align:center;
+	color:#000;
+}
+
+#content .navi li a:hover , #content .navi .selected a{
+	background:url(../images/teacher/navi_a_hover.png) no-repeat;
+	line-height:40px;
+}
+
+#content .navi .long_li{
+	width:100px;
+}
+
+#content .navi .long_li a:hover{
+	background:url(../images/teacher/navi_long_a_hover.png) no-repeat;
+}
+/*navi*/
+
+#tab_middle{
+	margin:auto;
+}
+
+#tab_middle, #tab_middle_1, #tab_middle_2{
+	width:490px;	
+}
+
+#tab_middle{
+	overflow:hidden;
+}
+
+#tab_middle .testInfo{
+	
+}
+
+#tab_middle .testInfo .testInfoTop{
+	background:url(../images/teacher/testInfoBackgroundTop.png) no-repeat;
+	width:490px;
+	height:20px;
+	margin-top:20px;
+}
+
+#tab_middle .testInfo .itemTestInfo{
+	width:490px;
+	background:url(../images/student/backgroundSide.png) repeat-y;
+}
+
+#tab_middle .testInfo .itemTestInfoContent{
+	font-size:22px;
+	margin-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#tab_middle .bottom{
+	background:url(../images/student/backgroundBottom.png) no-repeat;
+	width:490px;
+	height:20px;
+}
+
+#tab_middle .practiseInfo{
+
+}
+
+#tab_middle .practiseInfo .practiseInfoTop{
+	background:url(../images/teacher/practiseInfoBackgroundTop.png) no-repeat;
+	width:490px;
+	height:20px;
+	margin-top:20px;
+}
+
+#tab_middle .practiseInfo .itemPractiseInfo{
+	width:490px;
+	background:url(../images/student/backgroundSide.png) repeat-y;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+}
+
+#tab_middle .practiseInfo .itemPractiseInfo .chapterInfo .doc{
+	float:left;
+	height:49px;
+}
+
+#tab_middle .practiseInfo .itemPractiseInfo .chapterInfo .doc img{
+	margin:auto;
+	padding-top:30px;
+}
+
+#tab_middle .practiseInfo .itemPractiseInfo .chapterInfo .chapterInfoContent{
+	float:left;
+	font-size:18px;
+	margin-left:20px;
+	height:50px;
+	padding:12px 0;
+	width:310px;
+}
+
+#tab_middle .practiseInfo .itemPractiseInfo .chapterInfo .pie{
+	margin-top:0px;
+	padding-top:0px;
+}
+
+#content #right{
+	float:left;
+	margin-left:0px;
+	width:290px;
+}
+
+#content #right .bottom{
+	height:20px;
+	background:url(../images/student/rightBackgroundBottom.png) no-repeat;
+}
+
+#content #right #info .infoTop{
+	width:290px;
+	height:20px;
+	background:url(../images/student/infoBackgroundTop.png) no-repeat;
+	margin-top:-30px;
+}
+
+#content #right #info .itemInfo{
+	background:url(../images/student/rightBackgroundSide.png) repeat-y;
+}
+
+#content #right #info .itemInfoLeft{
+	margin-left:15px;
+	width:100px;
+	height:130px;
+	float:left;
+}
+
+#content #right #info #photo{
+	margin-left:10px;
+	margin-top:10px;
+	height:100px;
+	width:80px;
+	border:1px solid;
+}
+
+#content #right #info #kemu{
+	height:30px;
+	width:80px;
+	margin-left:10px;
+	margin-top:3px;
+	font-size:18px;
+	color:#F00;
+	text-align:center;
+}
+
+#content #right #info .itemInfoRight{
+	width:150px;
+	height:130px;
+	float:left;
+	font-size:17px;
+	line-height:50px;
+	margin-top:5px;
+}
+
+.height{
+	height:20px;
+}
+
+#content #middle #setHardness input{
+	margin:0;
+	vertical-align:middle;
+}
+
+#content #middle .set{
+	font-size:20px;
+	padding-left:10px;
+}
+
+#content #middle .submit{
+	float:left;
+	width:150px;
+}
+
+#content #middle .submit input{
+	font-size:22px;
+	width:87px;
+	height:40px;
+	background:url(../images/student/submitButton.png);
+	border:none;
+	margin-left:0px;
+}
+
+#content #middle .submitStart{
+	float:left;
+	width:150px;
+}
+
+#content #middle .submitStart input{
+	font-size:22px;
+	width:87px;
+	height:40px;
+	background:url(../images/student/submitNextButton.png);
+	border:none;
+	margin-left:0px;
+}
+
+#content #middle .submitNext{
+	float:left;
+	width:100px;
+	margin-left:10px;
+}
+
+#content #middle .submitNext input{
+	font-size:22px;
+	width:87px;
+	height:40px;
+	background:url(../images/student/nextQuestionButton.png);
+	border:none;
+}
+
+#content #middle .others{
+	float:right;
+	margin-right:200px;
+	/*margin-top:5px;*/
+}
+
+#content #middle .align{
+	font-size:20px;
+	padding-bottom:10px;
+}
+
+#content #middle .other{
+	margin-top:50px;
+	display:inline;
+	margin-left:25px;
+}
+
+#content #middle button{
+	display:inline;
+}
+
+/*content*/
+
+
